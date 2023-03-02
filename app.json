@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "igniteshoesapp",
+    "scheme": "igniteshoesapp",
     "slug": "igniteshoesapp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,16 +19,26 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.melqui.igniteshoesapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#000000"
-      }
+      },
+      "package": "com.melqui.igniteshoesapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "onesignal-expo-plugin",
+        {
+          "mode": "development"
+        }
+      ]
+    ]
   }
 }
