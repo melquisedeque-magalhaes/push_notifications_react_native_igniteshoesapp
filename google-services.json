@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "633457072353",
+    "project_id": "igniteshoespushnotifications",
+    "storage_bucket": "igniteshoespushnotifications.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633457072353:android:9ff6bdbde2639d6e09ffa0",
+        "android_client_info": {
+          "package_name": "com.melqui.igniteshoesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633457072353-ci5secfu0s6vhegbf013mugv833rtva3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSr5bgo0aouYze5-TbwFhwjibNOf48EcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633457072353-ci5secfu0s6vhegbf013mugv833rtva3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

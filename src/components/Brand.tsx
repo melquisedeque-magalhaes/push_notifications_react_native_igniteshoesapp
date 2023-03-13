@@ -1,8 +1,8 @@
-import { ImageSourcePropType, Platform } from 'react-native';
+import { Platform } from 'react-native';
 import { Pressable, IPressableProps, Image } from 'native-base';
 
 type Props = IPressableProps & {
-  image: ImageSourcePropType;
+  image: string;
   isActive: boolean;
 }
 
@@ -25,7 +25,7 @@ export function Brand({ image, isActive, ...rest }: Props) {
       {...rest}
     >
       <Image
-        source={image}
+        source={{ uri: image }}
         alt="Brand image"
         w={20}
         h={7}

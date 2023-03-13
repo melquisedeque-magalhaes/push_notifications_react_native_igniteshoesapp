@@ -20,14 +20,16 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.melqui.igniteshoesapp"
+      "bundleIdentifier": "com.melqui.igniteshoesapp",
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#000000"
       },
-      "package": "com.melqui.igniteshoesapp"
+      "package": "com.melqui.igniteshoesapp",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -38,7 +40,8 @@
         {
           "mode": "development"
         }
-      ]
+      ],
+      "@react-native-firebase/app"
     ]
   }
 }
